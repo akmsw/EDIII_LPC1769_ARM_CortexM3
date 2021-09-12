@@ -46,7 +46,7 @@ void configure_pins(void)
 	LPC_PINCON->PINSEL0 &= ~(0x3ff); // p0.0-4 as gpio
 	LPC_PINCON->PINMODE0 &= ~(0x3ff); // p0.0-4 with pull-up resistors
 
-	LPC_GPIO0->FIODIR0 |= (0x1F); // p0.0-4 as outputs
+	LPC_GPIO0->FIODIR0 &= ~(0x1F); // p0.0-4 as inputs
 }
 
 void delay(void)
