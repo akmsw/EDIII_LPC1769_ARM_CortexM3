@@ -33,11 +33,9 @@ int main(void)
 	while (1)
 		for (uint8_t i = 0; i < SIZE; i++)
 		{
-			LPC_GPIO2->FIOSETL |= num_display[i]; // i-th number corresponding leds on
+			LPC_GPIO2->FIOPIN0 = num_display[i]; // shows the i-th number
 
 			delay();
-
-			LPC_GPIO2->FIOCLRL |= num_display[i]; // i-th number corresponding leds off
 		}
 
 	return 0;
