@@ -6,7 +6,7 @@
  * Copyright   	: 	None
  * Description	: 	Second exercise - Digital Electronics III
  * Activity	:	Using P2.0-9, make two different light sequences and switch
- * 			from one to another indefinitely.
+ * 			from one to another indefinitely
  * Date		:	12/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
