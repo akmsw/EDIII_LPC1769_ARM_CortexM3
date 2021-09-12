@@ -35,9 +35,9 @@ int main(void)
 
 void configure_pins(void)
 {
-	LPC_PINCON->PINSEL4 &= ~(0xFFFFF); // p2.0-9 configured as gpio
+	LPC_PINCON->PINSEL4 &= ~(0xfffff); // p2.0-9 configured as gpio
 
-	LPC_GPIO2->FIODIRL |= (0x3FF); // p2.0-9 configured as output
+	LPC_GPIO2->FIODIRL |= (0x3ff); // p2.0-9 configured as output
 }
 
 void delay()
@@ -63,11 +63,11 @@ void seq_2(void)
 	// p2.0-9 leds blink
 	for (uint8_t i = 0; i < 3; i++)
 	{
-		LPC_GPIO2->FIOSETL |= (0x3FF); // p2.0-9 leds on
+		LPC_GPIO2->FIOSETL |= (0x3ff); // p2.0-9 leds on
 
 		delay();
 
-		LPC_GPIO2->FIOCLRL |= (0x3FF); // p2.0-9 leds off
+		LPC_GPIO2->FIOCLRL |= (0x3ff); // p2.0-9 leds off
 
 		delay();
 	}
