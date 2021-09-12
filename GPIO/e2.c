@@ -36,6 +36,7 @@ int main(void)
 void configure_pins(void)
 {
 	LPC_PINCON->PINSEL4 &= ~(0xFFFFF); // p2.0-9 configured as gpio
+
 	LPC_GPIO2->FIODIRL |= (0x3FF); // p2.0-9 configured as output
 }
 
