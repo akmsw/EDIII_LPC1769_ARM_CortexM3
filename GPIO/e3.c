@@ -4,7 +4,7 @@
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
- * Description	: 	Fourth exercise - Digital Electronics III
+ * Description	: 	Third exercise - Digital Electronics III
  * Activity	:	Using P0.4 as input with pull-up resistor, check its value
  * 			and:
  * 				- If it's '1', the value represented in P0.0-3 must be
