@@ -21,7 +21,7 @@ void delay(void);
 
 int main(void)
 {
-	uint32_t num_display[SIZE] =	{	// 0 - F in hexadecimal
+	uint32_t num_display[SIZE] =	{	// 0 - f in hexadecimal
 						0x3f, 0x06, 0x5b, 0x4f,
 						0x66, 0x6d, 0x7d, 0x07,
 						0x7f, 0x67, 0x77, 0x7c,
