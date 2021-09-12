@@ -38,6 +38,7 @@ int main(void)
 void configure_pins(void)
 {
 	LPC_PINCON->PINSEL1 &= ~(0b11<<12); // load '00' to set p0.22 as gpio
+
 	LPC_GPIO0->FIODIR |= (1<<22); // set p0.22 as output
 }
 
