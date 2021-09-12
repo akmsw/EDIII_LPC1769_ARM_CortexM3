@@ -1,10 +1,10 @@
 /**
  * ===============================================================================
- * Name        	:	e1.c
+ * Name        	:	e0.c
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
- * Description	: 	First exercise - Digital Electronics III
+ * Description	: 	Example exercise - Digital Electronics III
  * Activity	:	Blink intermittently the LPC1769 integrated LED in P0.22
  * Date		:	05/08/2021 (dd/mm/yyyy)
  * ===============================================================================
