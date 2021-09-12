@@ -4,7 +4,7 @@
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
- * Description	: 	Third exercise - Digital Electronics III
+ * Description	: 	Second exercise - Digital Electronics III
  * Activity	:	Using P2.0-7, count from 0 to F in a 7-segments common cathode
  * 			display, using pull-up resistors
  * Date		:	12/08/2021 (dd/mm/yyyy)
