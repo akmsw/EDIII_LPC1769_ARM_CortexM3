@@ -5,13 +5,13 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Fourth exercise - Digital Electronics III
- * Activity		:	Using P0.4 as input with pull-up resistor, check its value
- * 					and:
- * 						- If it's '1', the value represented with P0.0-3 must be
- * 					 	  added to the variable 'accumulator'
- * 					 	- If it's '0', the value representer with P0.0-3 must be
- * 					 	  subtracted from the variable 'accumulator'
- * Date			:	12/08/2021 (dd/mm/yyyy)
+ * Activity	:	Using P0.4 as input with pull-up resistor, check its value
+ * 			and:
+ * 				- If it's '1', the value represented with P0.0-3 must be
+ * 			 	  added to the variable 'accumulator'
+ * 			 	- If it's '0', the value representer with P0.0-3 must be
+ * 			 	  subtracted from the variable 'accumulator'
+ * Date		:	12/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
