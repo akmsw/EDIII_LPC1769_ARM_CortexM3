@@ -5,9 +5,9 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Third exercise - Digital Electronics III
- * Activity		:	Using P2.0-7, count from 0 to F in a 7-segments common cathode
- * 					display, using pull-up resistors
- * Date			:	12/08/2021 (dd/mm/yyyy)
+ * Activity	:	Using P2.0-7, count from 0 to F in a 7-segments common cathode
+ * 			display, using pull-up resistors
+ * Date		:	12/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
@@ -22,11 +22,11 @@ void delay(void);
 int main(void)
 {
 	uint32_t num_display[SIZE] =	{	// 0 - f in hexadecimal
-										0x3f, 0x06, 0x5b, 0x4f,
-										0x66, 0x6d, 0x7d, 0x07,
-										0x7f, 0x67, 0x77, 0x7c,
-										0x39, 0x5e, 0x79, 0x71
-									};
+						0x3f, 0x06, 0x5b, 0x4f,
+						0x66, 0x6d, 0x7d, 0x07,
+						0x7f, 0x67, 0x77, 0x7c,
+						0x39, 0x5e, 0x79, 0x71
+					};
 
 	configure_pins();
 
