@@ -22,10 +22,10 @@ void delay(void);
 int main(void)
 {
 	uint32_t num_display[SIZE] =	{	// 0 - F in hexadecimal
-						0x3F, 0x06, 0x5B, 0x4F,
-						0x66, 0x6D, 0x7D, 0x07,
-						0x7F, 0x67, 0x77, 0x7C,
-						0x39, 0x5E, 0x79, 0x71
+						0x3f, 0x06, 0x5b, 0x4f,
+						0x66, 0x6d, 0x7d, 0x07,
+						0x7f, 0x67, 0x77, 0x7c,
+						0x39, 0x5e, 0x79, 0x71
 					};
 
 	configure_pins();
@@ -45,10 +45,10 @@ int main(void)
 
 void configure_pins(void)
 {
-	LPC_PINCON->PINSEL4 &= ~(0x7F); // p2.0-6 as gpio
-	LPC_PINCON->PINMODE4 &= ~(0x7F); // p2.0-6 with pull-up resistors
+	LPC_PINCON->PINSEL4 &= ~(0x3fff); // p2.0-6 as gpio
+	LPC_PINCON->PINMODE4 &= ~(0x3fff); // p2.0-6 with pull-up resistors
 
-	LPC_GPIO2->FIODIRL |= (0x7F); // p2.0-6 as outputs
+	LPC_GPIO2->FIODIRL |= (0x7f); // p2.0-6 as outputs
 }
 
 void delay(void)
