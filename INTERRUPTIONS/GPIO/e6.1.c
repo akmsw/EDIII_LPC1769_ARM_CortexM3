@@ -5,11 +5,11 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Second GPIO interruptions example - Digital Electronics III
- * Activity		:	Consider a normally open button connected to P2.3 and a LED
- * 					connected to P0.0
- * 					Every time the button generates a falling-edge interruption,
- * 					the LED status must change (on - off)
- * Date			:	26/08/2021 (dd/mm/yyyy)
+ * Activity	:	Consider a normally open button connected to P2.3 and a LED
+ * 			connected to P0.0
+ * 			Every time the button generates a falling-edge interruption,
+ * 			the LED status must change (on - off)
+ * Date		:	26/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
