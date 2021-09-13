@@ -19,6 +19,7 @@
 
 void conf_gpio(void);
 void conf_gpio_int(void);
+void EINT3_IRQHandler(void);
 
 uint8_t led_on = 0;
 
