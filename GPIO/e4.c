@@ -5,14 +5,14 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Fourth exercise - Digital Electronics III
- * Activity		:	Considering two normally-open buttons connected to P0.0-1,
- * 					identify which button has been pressed
- * 					There should be three states:
- * 						- None of them pressed
- * 						- P0.0 pressed
- * 						- P0.1 pressed
- * 					Show the state with two LEDs connected to P0.2-3
- * Date			:	12/08/2021 (dd/mm/yyyy)
+ * Activity	:	Considering two normally-open buttons connected to P0.0-1,
+ * 			identify which button has been pressed
+ * 			There should be three states:
+ * 				- None of them pressed
+ * 				- P0.0 pressed
+ * 				- P0.1 pressed
+ * 			Show the state with two LEDs connected to P0.2-3
+ * Date		:	12/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
