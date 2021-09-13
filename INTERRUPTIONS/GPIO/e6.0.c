@@ -1,14 +1,14 @@
 /**
  * ===============================================================================
- * Name        	:	e5.c
+ * Name        	:	e6.0.c
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Example interruptions exercise - Digital Electronics III
- * Activity		:	Blink intermittently the LPC1769 integrated LED in P0.22
- * 					Change the blink frequency every time a rising-edge
- * 					interruption occurs on P0.15
- * Date			:	26/08/2021 (dd/mm/yyyy)
+ * Activity	:	Blink intermittently the LPC1769 integrated LED in P0.22
+ * 			Change the blink frequency every time a rising-edge
+ * 			interruption occurs on P0.15
+ * Date		:	26/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
