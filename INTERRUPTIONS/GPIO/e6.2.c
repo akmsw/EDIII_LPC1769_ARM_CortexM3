@@ -5,14 +5,14 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Third GPIO interruptions example - Digital Electronics III
- * Activity		:	Consider a normally open button connected to P2.9, a
- * 					7 segments common cathode display connected on P0.0-6 and
- *					a blue LED connected to P0.8
- * 					Every time the button generates a falling-edge interruption,
- * 					increment a counter variable from 0 to F
- * 					In case of reach the superior limit (F), the counter must be
- * 					reseted to 0 and the blue LED must be setted on
- * Date			:	26/08/2021 (dd/mm/yyyy)
+ * Activity	:	Consider a normally open button connected to P2.9, a
+ * 			7 segments common cathode display connected on P0.0-6 and
+ *			a blue LED connected to P0.8
+ * 			Every time the button generates a falling-edge interruption,
+ * 			increment a counter variable from 0 to F
+ * 			In case of reach the superior limit (F), the counter must be
+ * 			reseted to 0 and the blue LED must be setted on
+ * Date		:	26/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
@@ -28,11 +28,11 @@ void EINT3_IRQHandler(void);
 uint8_t count = 0;
 
 uint32_t num_display[SIZE] =	{	// 0 - f in hexadecimal
-									0x3f, 0x06, 0x5b, 0x4f,
-									0x66, 0x6d, 0x7d, 0x07,
-									0x7f, 0x67, 0x77, 0x7c,
-									0x39, 0x5e, 0x79, 0x71
-								};
+					0x3f, 0x06, 0x5b, 0x4f,
+					0x66, 0x6d, 0x7d, 0x07,
+					0x7f, 0x67, 0x77, 0x7c,
+					0x39, 0x5e, 0x79, 0x71
+				};
 
 int main(void)
 {
@@ -82,6 +82,8 @@ void EINT3_IRQHandler(void)
 			count = 0;
 
 			LPC_GPIO0->FIOPIN0 = num_display[count];
+
+			count++;
 
 			if (!(LPC_GPIO0->FIOPIN & BIT(8)))
 				LPC_GPIO0->FIOSET |= (0x100); // p0.8 led on
