@@ -49,7 +49,6 @@ int main(void)
 	delay();
 
 	while (1)
-	{
 		for (uint8_t i = 0; i < ARR_SIZE; i++)
 		{
 			data_array[i] = LPC_GPIO1->FIOPINL;
@@ -64,7 +63,6 @@ int main(void)
 
 			delay();
 		}
-	}
 }
 
 void configure_pins(void)
