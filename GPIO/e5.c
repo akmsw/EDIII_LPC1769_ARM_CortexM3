@@ -5,15 +5,15 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Fifth exercise - Digital Electronics III
- * Activity		:	Calculate the mobile average with the last eight inputs on
- * 					P1, considering each input as a signed int conformed by
- * 					P2.0-15
- * 					Show the 16 bits result in P0.0-11 & P0.15-18
- * 					Remember: in a mobile average calculation, the oldest input
- * 					from the 8 buffer is discarded, a new input is registered
- * 					and the calculation is performed again with this new buffer
- * 					Consider a tiny delay before getting a new input from P1
- * Date			:	12/08/2021 (dd/mm/yyyy)
+ * Activity	:	Calculate the mobile average with the last eight inputs on
+ * 			P1, considering each input as a signed int conformed by
+ * 			P2.0-15
+ * 			Show the 16 bits result in P0.0-11 & P0.15-18
+ * 			Remember: in a mobile average calculation, the oldest input
+ * 			from the 8 buffer is discarded, a new input is registered
+ * 			and the calculation is performed again with this new buffer
+ * 			Consider a tiny delay before getting a new input from P1
+ * Date		:	12/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
@@ -81,7 +81,7 @@ void configure_pins(void)
 
 void delay(void)
 {
-	for (uint8_t contador = 0; contador < TIMER; contador++);
+	for (uint8_t contador = 0; contador < TIMER; contador++); // ~1[s]
 }
 
 uint16_t calc_avg(int array[ARR_SIZE])
