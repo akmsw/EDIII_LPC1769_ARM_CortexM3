@@ -5,11 +5,11 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	First external interruptions example - Digital Electronics III
- * Activity		:	Using a normally open button, and considering it as an external
- * 					falling-edge interruptions source (specifically, EINT2), blink
- * 					intermittently the LPC1769 integrated LED in P0.22 changing the
- * 					blink frequency as you want every time the button is pressed
- * Date			:	26/08/2021 (dd/mm/yyyy)
+ * Activity	:	Using a normally open button, and considering it as an external
+ * 			falling-edge interruptions source (specifically, EINT2), blink
+ * 			intermittently the LPC1769 integrated LED in P0.22 changing the
+ * 			blink frequency as you want every time the button is pressed
+ * Date		:	26/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
