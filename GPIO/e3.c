@@ -35,7 +35,7 @@ int main(void)
 		else
 			accumlator -= (LPC_GPIO0->FIOPIN0 & (0xF)); // else, we subtract p0.0-3 from accumulator
 
-		delay(); // we wait ~1[s] before reading p0.4 again to avoid possible overflows
+		delay(); // ~1[s] delay before reading p0.4 again to avoid possible overflows
 	}
 
 	return 0;
