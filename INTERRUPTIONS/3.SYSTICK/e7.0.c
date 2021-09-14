@@ -16,6 +16,7 @@
 #define BIT(x) (1 << x)
 
 void conf_gpio(void);
+void SysTick_Handler(void);
 
 uint8_t inter = 0;
 
