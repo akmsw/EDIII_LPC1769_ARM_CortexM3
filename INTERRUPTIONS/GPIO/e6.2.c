@@ -9,7 +9,8 @@
  * 			7 segments common cathode display connected on P0.0-6 and
  *			a blue LED connected to P0.8
  * 			Every time the button generates a falling-edge interruption,
- * 			increment a counter variable from 0 to F
+ * 			increment a counter variable from 0 to F and show the number
+ 			on the 7 segments display
  * 			In case of reach the superior limit (F), the counter must be
  * 			reseted to 0 and the blue LED must be setted on
  * Date		:	26/08/2021 (dd/mm/yyyy)
