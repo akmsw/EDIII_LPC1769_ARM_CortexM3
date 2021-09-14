@@ -31,7 +31,7 @@ int main(void)
 
 	conf_eint();
 
-	while(1)
+	while (1)
 	{
 		if (inter % 2)
 			timer = 6000000;
