@@ -36,7 +36,7 @@ int main(void)
 
 	conf_gpio_int();
 
-	while(1);
+	while (1);
 
 	return 0;
 }
