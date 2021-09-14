@@ -5,15 +5,15 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	Second GPIO interruptions excercise - Digital Electronics III
- * Activity		:	Configure P0 & P2 such as P0.0 & P2.0 as rising-edge interruptions
- * 					sources, and consider:
- * 						- Whenever P0.0 interrupts, show 0b1001 through P0.1-4
- * 						  for about 3[s]
- * 						- Whenever P2.0 interrupts, show 0b0110 through P2.1-4
- * 						  for about 3[s]
- * 						- If there's no interruption, P0.1-4 & P2.1-4 must be low
- * 						- Use different color leds for each sequence
- * Date			:	26/08/2021 (dd/mm/yyyy)
+ * Activity	:	Configure P0 & P2 such as P0.0 & P2.0 as rising-edge interruptions
+ * 			sources, and consider:
+ * 				- Whenever P0.0 interrupts, show 0b1001 through P0.1-4
+ * 				  for about 3[s]
+ * 				- Whenever P2.0 interrupts, show 0b0110 through P2.1-4
+ * 				  for about 3[s]
+ * 				- If there's no interruption, P0.1-4 & P2.1-4 must be low
+ * 				- Use different color leds for each sequence
+ * Date		:	26/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
@@ -31,8 +31,8 @@ int main(void)
 {
 	conf_gpio();
 
-	LPC_GPIO0->FIOCLR0 = (0x1e); // p0.0-4 & p2.0-4 outputs as low
-	LPC_GPIO2->FIOCLR0 = (0x1e);
+	LPC_GPIO0->FIOCLR0 = (0x1e); // p0.1-4 outputs as low
+	LPC_GPIO2->FIOCLR0 = (0x1e); // p2.1-4 outputs as low
 
 	conf_gpio_int();
 
