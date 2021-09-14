@@ -5,15 +5,15 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	First GPIO interruptions excercise - Digital Electronics III
- * Activity		:	Configure P2 so that P2.0 acts as a rising-edge interruptions
- * 					source and P2.1 acts as a falling-edge interruptions source
- * 					Consider:
- * 						- Whenever P2.0 interrupts, the program must show the
- * 						  sequence 0b010011010 on P0.0-8 for about 5[s]
- * 						- Whenever P2.1 interrupts, the program must show the
- * 						  sequence 0b011100110 on P2.0-8 for about 5[s]
- * 						- If there's no interruption, P0.0-8 must be high
- * Date			:	26/08/2021 (dd/mm/yyyy)
+ * Activity	:	Configure P2 so that P2.0 acts as a rising-edge interruptions
+ * 			source and P2.1 acts as a falling-edge interruptions source
+ * 			Consider:
+ * 				- Whenever P2.0 interrupts, the program must show the
+ * 				  sequence 0b010011010 on P0.0-8 for about 5[s]
+ * 				- Whenever P2.1 interrupts, the program must show the
+ * 				  sequence 0b011100110 on P2.0-8 for about 5[s]
+ * 				- If there's no interruption, P0.0-8 must be high
+ * Date		:	26/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
