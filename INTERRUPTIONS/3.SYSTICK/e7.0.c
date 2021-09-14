@@ -5,9 +5,9 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	First SysTick interruptions example - Digital Electronics III
- * Activity		:	Using SysTick as interruptions source, toggle the LPC1769
- * 					integrated LED status (P0.22) every time an SysTick interrupts
- * Date			:	02/09/2021 (dd/mm/yyyy)
+ * Activity	:	Using SysTick as interruptions source, toggle the LPC1769
+ * 			integrated LED status (P0.22) every time SysTick interrupts
+ * Date		:	02/09/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
