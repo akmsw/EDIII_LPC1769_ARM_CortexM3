@@ -61,7 +61,7 @@ void conf_gpio_int(void)
 
 void delay(void)
 {
-	for (uint32_t i = 0; i < TIMER; i++);
+	for (uint32_t i = 0; i < TIMER; i++); // ~5[s]
 }
 
 void EINT3_IRQHandler(void)
