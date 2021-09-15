@@ -5,18 +5,18 @@
  * Version     	: 	1.0
  * Copyright   	: 	None
  * Description	: 	First external interruptions exercise - Digital Electronics III
- * Activity		:	Configure EINT1 & EINT2 such that EINT1 acts as a falling-edge
- * 					interruptions source and EINT2 acts as a rising-edge
- * 					interruptions source, and consider:
- * 						- Whenever EINT1 interrupts, SysTick must interrupt every
- * 						  25[ms], which will be also the integrated LPC1769 P0.22
- * 						  LED blink period
- * 						- Whenever EINT2 interrupts, SysTick must interrupt every
- * 						  60[ms], which will be also the integrated LPC1769 P0.22
- * 						  LED blink period
- * 						- EINT1 interruptions priority is bigger than EINT2
- * 						  interruptions priority
- * Date			:	09/09/2021 (dd/mm/yyyy)
+ * Activity	:	Configure EINT1 & EINT2 such that EINT1 acts as a falling-edge
+ * 			interruptions source and EINT2 acts as a rising-edge
+ * 			interruptions source, and consider:
+ * 				- Whenever EINT1 interrupts, SysTick must interrupt every
+ * 				  25[ms], which will be also the integrated LPC1769 P0.22
+ * 				  LED blink period
+ * 				- Whenever EINT2 interrupts, SysTick must interrupt every
+ * 				  60[ms], which will be also the integrated LPC1769 P0.22
+ * 				  LED blink period
+ * 				- EINT1 interruptions priority is bigger than EINT2
+ * 				  interruptions priority
+ * Date		:	09/09/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
