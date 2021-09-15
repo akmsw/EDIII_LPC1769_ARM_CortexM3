@@ -49,5 +49,5 @@ void SysTick_Handler(void)
 {
 	inter++;
 
-	SysTick->CTRL &= (0xFFFFFFFF); // reading CTRL register clears systick interruption flag
+	SysTick->CTRL &= (0xffffffff); // reading CTRL register clears systick interruption flag
 }
