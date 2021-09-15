@@ -100,5 +100,5 @@ void SysTick_Handler(void)
 {
 	inter++;
 
-	SysTick->CTRL &= (0xFFFFFFFF);
+	SysTick->CTRL &= (0xffffffff);
 }
