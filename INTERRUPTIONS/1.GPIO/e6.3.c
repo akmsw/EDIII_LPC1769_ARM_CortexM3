@@ -72,7 +72,7 @@ void EINT3_IRQHandler(void)
 
 		delay();
 
-		LPC_GPIO0->FIOPIN = (0x1FF);
+		LPC_GPIO0->FIOPIN = (0x1ff);
 
 		LPC_GPIOINT->IO2IntClr |= (0x1); // p2.0 interruption flag cleared
 	}
@@ -82,7 +82,7 @@ void EINT3_IRQHandler(void)
 
 		delay();
 
-		LPC_GPIO0->FIOPIN = (0x1FF);
+		LPC_GPIO0->FIOPIN = (0x1ff);
 
 		LPC_GPIOINT->IO2IntClr |= (0x2); // p2.1 interruption flag cleared
 	}
