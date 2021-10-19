@@ -75,7 +75,7 @@ void conf_timer(void)
 	TIM_MATCHCFG_Type struct_match; // Match configurations.
 
 	/**
-	 * Every 100[us], the prescaler will overflow and the timer will increase.
+	 * Every 100[us], the prescaler will overflow and the timer will increase by 1.
 	 * The prescaler load is automatically defined.
 	 */
 	struct_config.PrescaleOption	= TIM_PRESCALE_USVAL;
