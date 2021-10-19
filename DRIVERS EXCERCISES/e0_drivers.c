@@ -4,10 +4,10 @@
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
- * Activity		:	Blink intermittently the LPC1769 integrated LED in P0.22 using
- * 					drivers. The delay must be implemented with timer and
- * 					interruptions.
- * Date			:	05/08/2021 (dd/mm/yyyy)
+ * Activity	:	Blink intermittently the LPC1769 integrated LED in P0.22 using
+ * 			drivers. The delay must be implemented with timer and
+ * 			interruptions.
+ * Date		:	19/10/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
