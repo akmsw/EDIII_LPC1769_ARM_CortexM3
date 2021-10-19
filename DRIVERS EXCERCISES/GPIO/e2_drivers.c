@@ -4,9 +4,9 @@
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
- * Activity		:	Using P2.0-7, count from 0 to F in a 7-segments common cathode
- * 					display, using pull-up resistors
- * Date			:	19/10/2021 (dd/mm/yyyy)
+ * Activity	:	Using P2.0-7, count from 0 to F in a 7-segments common cathode
+ * 			display, using pull-up resistors
+ * Date		:	19/10/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
