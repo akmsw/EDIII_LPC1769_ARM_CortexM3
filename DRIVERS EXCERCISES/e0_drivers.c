@@ -79,7 +79,7 @@ void conf_timer(void)
 	 * The prescaler load is automatically defined.
 	 */
 	struct_config.PrescaleOption	= TIM_PRESCALE_USVAL;
-	struct_config.PrescaleValue		= 100;
+	struct_config.PrescaleValue	= 100;
 
 	/**
 	 * We'll use the match channel 0.
@@ -89,14 +89,14 @@ void conf_timer(void)
 	 * We won't do anything on the timer output whenever a match occurs.
 	 * With a match value of 1000, every ~100[ms] we'll get a match (100[us] * (1000 + 1) ~= 0.1[s]).
 	 * Every time we calculate the match time, we have to consider the next equation:
-	 * 					MatchTime = PrescaleValue * (MatchValue + 1)
+	 * 		MatchTime = PrescaleValue * (MatchValue + 1)
 	 */
-	struct_match.MatchChannel		= 0;
-	struct_match.IntOnMatch			= ENABLE;
-	struct_match.ResetOnMatch		= ENABLE;
-	struct_match.StopOnMatch		= DISABLE;
+	struct_match.MatchChannel	= 0;
+	struct_match.IntOnMatch		= ENABLE;
+	struct_match.ResetOnMatch	= ENABLE;
+	struct_match.StopOnMatch	= DISABLE;
 	struct_match.ExtMatchOutputType	= TIM_EXTMATCH_NOTHING;
-	struct_match.MatchValue 		= 1000;
+	struct_match.MatchValue 	= 1000;
 
 	/**
 	 * Apply general & match configuration to timer 0.
