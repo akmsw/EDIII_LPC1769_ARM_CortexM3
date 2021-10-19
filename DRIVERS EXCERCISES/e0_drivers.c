@@ -4,10 +4,10 @@
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
- * Activity	:	Blink intermittently the LPC1769 integrated LED in P0.22 using
- * 			drivers. The delay must be implemented with timer and
- * 			interruptions.
- * Date		:	19/10/2021 (dd/mm/yyyy)
+ * Activity		:	Blink intermittently the LPC1769 integrated LED in P0.22 using
+ * 					drivers. The delay must be implemented with timer and
+ * 					interruptions.
+ * Date			:	19/10/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
@@ -79,7 +79,7 @@ void conf_timer(void)
 	 * The prescaler load is automatically defined.
 	 */
 	struct_config.PrescaleOption	= TIM_PRESCALE_USVAL;
-	struct_config.PrescaleValue	= 100;
+	struct_config.PrescaleValue		= 100;
 
 	/**
 	 * We'll use the match channel 0.
@@ -91,12 +91,12 @@ void conf_timer(void)
 	 * Every time we calculate the match time, we have to consider the next equation:
 	 * 		MatchTime = PrescaleValue * (MatchValue + 1)
 	 */
-	struct_match.MatchChannel	= 0;
-	struct_match.IntOnMatch		= ENABLE;
-	struct_match.ResetOnMatch	= ENABLE;
-	struct_match.StopOnMatch	= DISABLE;
+	struct_match.MatchChannel		= 0;
+	struct_match.IntOnMatch			= ENABLE;
+	struct_match.ResetOnMatch		= ENABLE;
+	struct_match.StopOnMatch		= DISABLE;
 	struct_match.ExtMatchOutputType	= TIM_EXTMATCH_NOTHING;
-	struct_match.MatchValue 	= 1000;
+	struct_match.MatchValue 		= 1000;
 
 	/**
 	 * Apply general & match configuration to timer 0.
