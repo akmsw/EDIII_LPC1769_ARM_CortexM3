@@ -4,11 +4,11 @@
  * Author      	:	Bonino, Francisco Ignacio
  * Version     	: 	1.0
  * Copyright   	: 	None
- * Activity		:	Consider a normally open button connected to P2.3 and a LED
- * 					connected to P0.0
- * 					Every time the button generates a falling-edge interruption,
- * 					the LED status must change (on - off).
- * Date			:	26/08/2021 (dd/mm/yyyy)
+ * Activity	:	Consider a normally open button connected to P2.3 and a LED
+ * 			connected to P0.0
+ * 			Every time the button generates a falling-edge interruption,
+ * 			the LED status must change (on - off).
+ * Date		:	26/08/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
 
@@ -64,7 +64,7 @@ void conf_inter(uint8_t port, uint32_t pin, uint8_t edge)
 
 void EINT3_IRQHandler(void)
 {
-	// a button debounce algorythm should be implemented for this code to work properly
+	// a button-debouncing algorithm should be implemented for this code to work properly
 	if (!GPIO_GetIntStatus(PORT(2), BIT(3), 1) && (stat != 0))
 	{
 		if (GPIO_ReadValue(PORT(0)) & BIT(0))
