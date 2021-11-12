@@ -57,7 +57,7 @@ int main(void)
 	
 	FIO_HalfWordClearValue(PORT(0), LOWER, 0x7f);
 	
-	while(1);
+	while (1);
 	
 	return 0;
 }
