@@ -64,7 +64,7 @@ int maint(void)
 	p2_0_ON = FALSE;
 	p2_1_ON = FALSE;
 	
-	while(1);
+	while (1);
 	
 	return 0;
 }
