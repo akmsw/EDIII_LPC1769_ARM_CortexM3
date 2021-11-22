@@ -31,8 +31,10 @@
 #define PORT(x) x
 #define BIT(x) (1 << x)
 
-cfg_gpio(uint8_t, uint8_t, uint8_t);
-cfg_ext_int(uint8_t, uint8_t);
+void cfg_gpio(uint8_t, uint8_t, uint8_t);
+void cfg_ext_int(uint8_t, uint8_t);
+void cfg_systick(void);
+void cfg_priorities(void);
 
 int main(void)
 {
