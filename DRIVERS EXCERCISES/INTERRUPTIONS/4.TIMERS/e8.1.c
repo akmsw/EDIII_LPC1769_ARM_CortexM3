@@ -6,8 +6,8 @@
  * Copyright   	: 	None
  * Description	: 	Second Timers excercise - Digital Electronics III
  * Activity	:	Using Timer 2 and considering a normally open button on EINT1,
-				write a program that decreases by half the P0.22 integrated LED
-				blink frequency due to a modification to the prescaler.
+			write a program that decreases by half the P0.22 integrated LED
+			blink frequency due to a modification to the prescaler.
  * Date		:	22/11/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
