@@ -77,7 +77,7 @@ void cfg_ext_int(uint8_t, uint8_t)
 	
 	exticfg.EXTI_Line = EXTI_EINT2;
 	exticfg.EXTI_Mode = EXTI_MODE_EDGE_SENSITIVE;
-	exticfg.EXTY_polarity = EXTY_POLARITY_LOW_ACTIVE_OR_FALLING_EDGE;
+	exticfg.EXTY_polarity = EXTI_POLARITY_LOW_ACTIVE_OR_FALLING_EDGE;
 	
 	NVIC_EnableIRQ(EINT2_IRQn);
 	
