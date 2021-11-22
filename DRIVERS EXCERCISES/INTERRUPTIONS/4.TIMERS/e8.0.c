@@ -6,8 +6,8 @@
  * Copyright   	: 	None
  * Description	: 	First Timers excercise - Digital Electronics III
  * Activity	:	Using Timer 1 and considering a normally open button on EINT0,
-				write a program that decreases by half the P0.22 integrated LED
-				blink frequency due to a modification to the PCLK.
+			write a program that decreases by half the P0.22 integrated LED
+			blink frequency due to a modification to the PCLK.
  * Date		:	22/11/2021 (dd/mm/yyyy)
  * ===============================================================================
  */
