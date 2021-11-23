@@ -118,7 +118,7 @@ void EINT1_IRQHandler(void)
     EXTI_ClearEXTIFlag(EXTI_EINT1);
 }
 
-void EINT1_IRQHandler(void)
+void EINT2_IRQHandler(void)
 {
     // Falta antirrebote
     SYSTICK_InternalInit(60);
