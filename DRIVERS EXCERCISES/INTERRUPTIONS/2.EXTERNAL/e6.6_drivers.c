@@ -83,7 +83,7 @@ void cfg_ext_int(uint8_t port, uint8_t pin)
 	
 	exticfg.EXTI_Line = (pin == 11) ? EXTI_EINT1 : EXTI_EINT2;
 	exticfg.EXTI_Mode = EXTI_MODE_EDGE_SENSITIVE;
-	exticfg.EXTY_polarity = (pin == 11) ? EXTI_POLARITY_LOW_ACTIVE_OR_FALLING_EDGE : EXTI_POLARITY_HIGH_ACTIVE_OR_RISING_EDGE;
+	exticfg.EXTI_polarity = (pin == 11) ? EXTI_POLARITY_LOW_ACTIVE_OR_FALLING_EDGE : EXTI_POLARITY_HIGH_ACTIVE_OR_RISING_EDGE;
 	
 	NVIC_EnableIRQ(EINT2_IRQn);
 	
