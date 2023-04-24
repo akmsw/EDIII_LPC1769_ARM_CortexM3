@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- Nombre      : TP_Integrador.c
+ Nombre      : TP_FINAL_INTEGRADOR_ED3.c
  Autores     : Amallo, Sofía; Covacich, Axel; Bonino Francisco Ignacio
  Version     : 1.0
  Copyright   : None
